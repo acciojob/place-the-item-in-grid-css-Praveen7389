@@ -1,2 +1,15 @@
-
+.holder{
+	background-color:yellow;
+	border:1px solid black;
+	height:200px;
+	width:200px;
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-template-rows:repeat(2,1fr);
+	grid-gap:2px;
+}
+.item{
+	background-color:aqua;
+	
+}
 /* Your CSS Code here. */
